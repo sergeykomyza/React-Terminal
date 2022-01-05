@@ -1,6 +1,7 @@
 # DGTerminal
 многостраничный сайт компании, занимающейся доставкой грузов
 
+![dgt_home_v001](https://user-images.githubusercontent.com/62849901/148228598-a1ee8c46-96ea-4d4e-b21a-48cd6cbcd2ff.png)
 
 
 # Getting Started with Create React App
