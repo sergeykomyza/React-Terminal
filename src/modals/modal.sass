@@ -1,0 +1,34 @@
+@import '../App.sass'
+
+.modal
+	position: fixed
+	z-index: 100
+	top: 0
+	left: 0
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 100%
+	height: 100%
+	background: rgba(0,0,0,0.4)
+	opacity: 0
+	pointer-events: none
+	transition: all 1s
+	&.active
+		opacity: 1
+		pointer-events: auto
+	&__content
+		background: #FFF
+		border: 5px solid $blue
+	&__service
+		width: 600px
+		padding: 15px
+		.modal__title
+			margin: 0 0 0.5em 0
+			font-size: 1.1em
+			font-weight: 900
+			color: #212121
+			letter-spacing: -0.7px
+			text-align: center
+		.modal__img
+			width: 50px
